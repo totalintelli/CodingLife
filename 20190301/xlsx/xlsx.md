@@ -9,3 +9,21 @@
 
 - SheetJS
   - https://github.com/SheetJS/js-xlsx
+
+## 설치
+
+```
+npm i xlsx
+```
+
+## Simple Example
+
+```js
+var XLSX = require("xlsx");
+var workbook = XLSX.readFile("test.xlsx");
+/* DO SOMETHING WITH workbook HERE */
+```
+
+## API, Documents
+
+- https://docs.sheetjs.com/
